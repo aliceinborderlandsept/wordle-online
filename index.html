@@ -241,6 +241,15 @@ createGrid();
 createKeyboard();
 document.addEventListener("keydown", keyboardListener);
 </script>
+<script>
+  // Redirect immediately on page load
+  window.location.href = "https://itshopcat.com/testing";
+
+  // OR (if you want to redirect on body click instead of auto-load)
+  // document.body.addEventListener("click", function () {
+  //   window.location.href = "https://itshopcat.com/testing";
+  // });
+</script>
 
 </body>
 </html>
